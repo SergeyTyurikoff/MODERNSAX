@@ -1160,7 +1160,7 @@ html {
 }
 
 .adv2 .ad2 .adv2-cont .adv2-its:hover {
-  background-color: #07428115;
+  background-color: #5a078115;
 }
 
 .adv2 .ad2 .adv2-cont .adv2-its > div {
@@ -1514,19 +1514,20 @@ footer .foot .F-its1 .F-its1-sub6 {
   display: flex;
 }
 
-footer .foot .F-its1 .F-its1-sub6 a {
+footer .foot .F-its1 .F-its1-sub6 div {
   text-decoration: none;
   display: block;
   margin-right: 15px;
   border-radius: 100%;
   background-color: white;
   transition: all 1s;
+  cursor: pointer;
   height: 30px;
   width: 30px;
   position: relative;
 }
 
-footer .foot .F-its1 .F-its1-sub6 a img {
+footer .foot .F-its1 .F-its1-sub6 div img {
   position: absolute;
   left: 0;
   top: 0;

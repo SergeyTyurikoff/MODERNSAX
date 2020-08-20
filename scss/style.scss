@@ -1093,7 +1093,7 @@ html {
         overflow: hidden;
         transition: all 0.8s;
         &:hover {
-          background-color: #07428115;
+          background-color: #5a078115;
         }
         > div {
           width: 48px;
@@ -1414,7 +1414,7 @@ footer {
       }
       .F-its1-sub6 {
         display: flex;
-        a {
+        div {
           text-decoration: none;
           display: block;
           margin-right: 15px;
@@ -1422,6 +1422,7 @@ footer {
           background-color: white;
           // border: 1px solid #f7f7f7;
           transition: all 1s;
+          cursor: pointer;
           
           height: 30px;
           width: 30px;
