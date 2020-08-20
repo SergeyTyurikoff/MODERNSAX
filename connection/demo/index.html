@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Плагин jQuery cloud-zoom</title>
+<link href="styles/cloud-zoom.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+<script type="text/JavaScript" src="js/cloud-zoom.1.0.2.min.js"></script>
+</head>
+<body>
+<h1>Режим "Фотогалерея"</h1>
+<a href='images/kharkov_big.jpg' class = 'cloud-zoom' id='zoom1' rel="adjustX: 10, adjustY:-4">
+	<img src="images/kharkov_small.jpg" alt="" />
+</a>
+<a href='images/kharkov_big.jpg' class='cloud-zoom-gallery' rel="useZoom: 'zoom1', smallImage: 'images/kharkov_small.jpg' ">
+	<img src="images/kharkov_small.jpg" alt =""/>
+</a>
+<a href='images/kharkov_big_bw.jpg' class='cloud-zoom-gallery' rel="useZoom: 'zoom1', smallImage: 'images/kharkov_small_bw.jpg' ">
+	<img src="images/kharkov_small_bw.jpg" alt =""/>
+</a>
+
+<h1>Режим "внутри"</h1>
+<a class="cloud-zoom" href="images/kharkov_big.jpg" rel="position: 'inside', adjustX: 0, adjustY:0"> 
+	<img src="images/kharkov_small.jpg" alt=""/>
+</a>
+
+<h1>Режим "размытие"</h1>
+<a class="cloud-zoom" href="images/kharkov_big.jpg" rel="position: 'right', adjustX: 14, adjustY:0, softFocus:true">
+		<img src="images/kharkov_small.jpg" alt=""/>
+</a>
+<h1>Режим "Цвет"</h1>
+<a class="cloud-zoom" href="images/kharkov_big.jpg" rel="tint: '#999', tintOpacity: 0.7, position: 'right', adjustX: 14, adjustY:0"> 
+	<img src="images/kharkov_small.jpg" alt="" title="Карта Харькова"/>
+</a>
+</body>
+</html>
